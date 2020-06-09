@@ -1,0 +1,8 @@
+1.file flag
+2.strings flag 發現是upx
+3.sudo apt-get install upx
+4.upx -d flag
+5.用ida pro打開
+6.看到mov rdx, cs:flag
+7.點進去
+8.點進去

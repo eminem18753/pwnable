@@ -1,0 +1,6 @@
+1.cat col.c
+2.python
+3.the hash/5.0
+4.hash-0x01010101*4
+5.hex the result
+6../col "`python -c "print '\x01\x01\x01\x01'*4+'\xed\x09\xbc\xbc'"`"

